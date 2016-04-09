@@ -9,6 +9,7 @@ gem 'jquery-rails'
 gem 'sass-rails', '>=4.0.0'
 gem 'bootstrap-sass', '~> 3.1.0'
 
+gem 'peach'
 gem 'rails_12factor', group: :production
 
 #for scraping
@@ -27,7 +28,7 @@ group :assets do
   gem 'coffee-rails', '~> 4.0.0'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  gem 'therubyracer'
+  # gem 'therubyracer'
   gem 'uglifier', '>= 1.0.3'
 end
 
